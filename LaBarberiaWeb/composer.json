@@ -1,0 +1,20 @@
+{
+    "name": "user/la-barberia-web",
+    "description": "proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin",
+            "email": "martin.iribass@gmail.com"
+        }
+    ],
+    "require": {}
+}
