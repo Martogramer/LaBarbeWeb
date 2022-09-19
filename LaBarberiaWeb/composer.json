@@ -1,13 +1,12 @@
 {
     "name": "user/la-barberia-web",
-    "description": "proyecto PHP 8, MVC, SQL, SASS, Gulp",
-    "type": "project",
+    "description": "gulp composer",
     "autoload": {
         "psr-4": {
+            "User\\LaBarberiaWeb\\": "src/",
             "MVC\\" : "./",
             "Controllers\\" : "./controllers",
-            "Model\\" : "./models",
-            "Classes\\" : "./classes"
+            "Model\\" : "./models"
         }
     },
     "authors": [
