@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitc668e1f70368ba6ea7885386dbcad875
 {
     public static $prefixLengthsPsr4 = array (
+        'U' => 
+        array (
+            'User\\LaBarberiaWeb\\' => 19,
+        ),
         'M' => 
         array (
             'Model\\' => 6,
@@ -15,11 +19,14 @@ class ComposerStaticInitc668e1f70368ba6ea7885386dbcad875
         'C' => 
         array (
             'Controllers\\' => 12,
-            'Classes\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'User\\LaBarberiaWeb\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Model\\' => 
         array (
             0 => __DIR__ . '/../..' . '/models',
@@ -31,10 +38,6 @@ class ComposerStaticInitc668e1f70368ba6ea7885386dbcad875
         'Controllers\\' => 
         array (
             0 => __DIR__ . '/../..' . '/controllers',
-        ),
-        'Classes\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/classes',
         ),
     );
 
